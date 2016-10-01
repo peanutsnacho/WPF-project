@@ -1,0 +1,5 @@
+X:\visual-studio-workspace\Interfaces\Validator\bin\Debug\Validator.dll
+X:\visual-studio-workspace\Interfaces\Validator\bin\Debug\Validator.pdb
+X:\visual-studio-workspace\Interfaces\Validator\obj\Debug\Validators.csprojResolveAssemblyReference.cache
+X:\visual-studio-workspace\Interfaces\Validator\obj\Debug\Validator.dll
+X:\visual-studio-workspace\Interfaces\Validator\obj\Debug\Validator.pdb
