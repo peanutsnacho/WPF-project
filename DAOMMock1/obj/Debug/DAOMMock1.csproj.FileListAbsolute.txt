@@ -1,0 +1,7 @@
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\DAOMMock1\bin\Debug\DAOMMock1.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\DAOMMock1\bin\Debug\DAOMMock1.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\DAOMMock1\bin\Debug\Interfaces.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\DAOMMock1\bin\Debug\Interfaces.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\DAOMMock1\obj\Debug\DAOMMock1.csprojResolveAssemblyReference.cache
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\DAOMMock1\obj\Debug\DAOMMock1.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\DAOMMock1\obj\Debug\DAOMMock1.pdb

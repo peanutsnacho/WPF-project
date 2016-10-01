@@ -141,7 +141,7 @@ namespace MVVNTest
         private void GroupByPrice()
         {
             _view.SortDescriptions.Add(new SortDescription("Price", ListSortDirection.Ascending));
-            _view.SortDescriptions.Add(new PropertyGroupDescription("Price"));
+            _view.GroupDescriptions.Add(new PropertyGroupDescription("Price"));
         }
     }
 }
