@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{3A143A82-0927-4BAE-877A-1B9A3067FE95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOMMock1", "DAOMMock1\DAOMMock1.csproj", "{D8CD1D3F-8D71-4D2C-8329-3630ACD2DC5D}"
@@ -10,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQtest", "LINQtest\LINQtest.csproj", "{339E484F-39A9-465C-9B3D-E0AFF064920E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator", "Validator\Validator.csproj", "{EEC69A7D-F9CE-4C98-8B51-D7BB54B6F553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{10425504-4F9A-46F6-9857-E2D2E4CDCC62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{EEC69A7D-F9CE-4C98-8B51-D7BB54B6F553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC69A7D-F9CE-4C98-8B51-D7BB54B6F553}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC69A7D-F9CE-4C98-8B51-D7BB54B6F553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10425504-4F9A-46F6-9857-E2D2E4CDCC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10425504-4F9A-46F6-9857-E2D2E4CDCC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10425504-4F9A-46F6-9857-E2D2E4CDCC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10425504-4F9A-46F6-9857-E2D2E4CDCC62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

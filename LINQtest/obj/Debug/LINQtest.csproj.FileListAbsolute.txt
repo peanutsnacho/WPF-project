@@ -1,0 +1,8 @@
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\LINQtest\bin\Debug\LINQtest.exe.config
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\LINQtest\bin\Debug\LINQtest.exe
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\LINQtest\bin\Debug\LINQtest.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\LINQtest\bin\Debug\Cars.DB_1.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\LINQtest\bin\Debug\Interfaces.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\LINQtest\bin\Debug\Test.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\LINQtest\obj\Debug\LINQtest.exe
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\LINQtest\obj\Debug\LINQtest.pdb
