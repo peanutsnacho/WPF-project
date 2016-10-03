@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CORE;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,12 @@ namespace Interfaces
 {
     public interface ITest
     {
-        int TestID { get; set; }
+        int TestID { get;}
         string Name { get; set; }
         bool HasMultipleAnswers { get; set; }
         TimeSpan Duration { get; set; }
+        Grading GradingSystem { get; set; }
+        IEnumerable<IQuestion> Questions { get; set; }
+        //TODO: stats
     }
 }

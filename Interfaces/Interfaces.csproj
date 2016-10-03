@@ -49,11 +49,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAnswer.cs" />
     <Compile Include="ICar.cs" />
     <Compile Include="IDAO.cs" />
     <Compile Include="IProducer.cs" />
+    <Compile Include="IQuestion.cs" />
     <Compile Include="ITest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CORE\CORE.csproj">
+      <Project>{bef7bb66-a6ef-4083-a66c-75d889adc17a}</Project>
+      <Name>CORE</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
