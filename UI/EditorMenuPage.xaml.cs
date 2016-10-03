@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace UI
 {
     /// <summary>
-    /// Interaction logic for StartMenuPage.xaml
+    /// Interaction logic for EditorMenuPage.xaml
     /// </summary>
-    public partial class StartMenuPage : Page
+    public partial class EditorMenuPage : Page
     {
-        public StartMenuPage()
+        public EditorMenuPage()
         {
             InitializeComponent();
-        }
-
-        private void EditorButton_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService navService = NavigationService.GetNavigationService(this);
-            navService.Navigate(new EditorMenuPage());
         }
     }
 }

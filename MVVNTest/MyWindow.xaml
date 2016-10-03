@@ -6,5 +6,6 @@
         xmlns:local="clr-namespace:MVVNTest"
         mc:Ignorable="d"
         Title="MyWindow" Height="400" Width="600"
-        Source="/UI;component/StartMenuPage.xaml">
+        Source="/UI;component/StartMenuPage.xaml"
+        Background="#CDDC39">
 </NavigationWindow>

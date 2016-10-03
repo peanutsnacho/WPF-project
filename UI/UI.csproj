@@ -49,6 +49,9 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditorMenuPage.xaml.cs">
+      <DependentUpon>EditorMenuPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -76,6 +79,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="EditorMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Page</Generator>
+    </Page>
     <Page Include="StartMenuPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Page</Generator>
