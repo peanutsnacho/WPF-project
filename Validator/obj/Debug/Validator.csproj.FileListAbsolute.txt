@@ -1,4 +1,5 @@
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Validator\bin\Debug\Validator.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Validator\bin\Debug\Validator.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Validator\obj\Debug\Validator.csprojResolveAssemblyReference.cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Validator\obj\Debug\Validator.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Validator\obj\Debug\Validator.pdb

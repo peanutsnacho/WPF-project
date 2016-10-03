@@ -6,10 +6,12 @@ C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\De
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\Interfaces.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\UI.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\Validator.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\CORE.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\DAOMMock1.pdb
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\Interfaces.pdb
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\UI.pdb
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\Validator.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\bin\Debug\CORE.pdb
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\obj\Debug\MVVMTest.csprojResolveAssemblyReference.cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\obj\Debug\MainWindow.g.cs
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\MVVNTest\obj\Debug\MyWindow.g.cs
