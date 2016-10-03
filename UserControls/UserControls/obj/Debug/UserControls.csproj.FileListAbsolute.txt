@@ -1,0 +1,15 @@
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\bin\Debug\UserControls.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\bin\Debug\UserControls.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\EditorMenuPage.g.cs
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\StartMenu.g.cs
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\StartPage.g.cs
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\UserControls_MarkupCompile.cache
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\UserControls_MarkupCompile.lref
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\EditorMenuPage.baml
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\StartMenu.baml
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\StartPage.baml
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\UserControls.g.resources
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\UserControls.Properties.Resources.resources
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\UserControls.csproj.GenerateResource.Cache
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\UserControls.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UserControls\UserControls\obj\Debug\UserControls.pdb
