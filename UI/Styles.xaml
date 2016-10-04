@@ -18,7 +18,6 @@
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="Margin" Value="15"/>
         <Setter Property="FontWeight" Value="DemiBold"/>
-        <Setter Property="Canvas.Background" Value="Yellow"/>
     </Style>
 
     <Style TargetType="{x:Type Button}">
@@ -28,6 +27,12 @@
         <Setter Property="Margin" Value="10"/>
         <Setter Property="BorderThickness" Value="0"/>
         <Setter Property="TextBlock.FontSize" Value="18"/>
+    </Style>
+
+    <Style TargetType="{x:Type ListBox}">
+        <Setter Property="MinWidth" Value="200"/>
+        <Setter Property="Background" Value="#F0F4C3"/>
+        <Setter Property="Margin" Value="50"/>
     </Style>
 
 </ResourceDictionary>
