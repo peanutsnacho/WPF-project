@@ -6,8 +6,10 @@ C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI_MarkupCompile.lref
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\EditorMenuPage.baml
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\StartMenuPage.baml
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Styles.baml
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.g.resources
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.Properties.Resources.resources
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.csproj.GenerateResource.Cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache

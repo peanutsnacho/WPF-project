@@ -9,10 +9,10 @@
       Title="StartMenuPage">
 
     <DockPanel LastChildFill="True">
-        <TextBlock Text="Start Menu" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+        <TextBlock Text="Start Menu" DockPanel.Dock="Top" Style="{StaticResource PageTitle}"/>
         <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Name="EditorButton" Content="Editor" MinWidth="150" Margin="10" Click="EditorButton_Click"/>
-            <Button Content="User" MinWidth="150" Margin="10"/>
+            <Button Name="EditorButton" Content="Editor" Click="EditorButton_Click" />
+            <Button Content="User"/>
         </StackPanel>
     </DockPanel>
 </Page>

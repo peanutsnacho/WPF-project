@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVNTest"
         mc:Ignorable="d"
-        Title="MyWindow" Height="400" Width="600"
+        Title="MyWindow"
         Source="/UI;component/StartMenuPage.xaml"
-        Background="#CDDC39">
+        Style="{StaticResource MainWindow}">
 </NavigationWindow>
