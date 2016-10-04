@@ -17,6 +17,22 @@ namespace DAO
         private Grading _gradingSystem;
         private List<IQuestion> _questions;
 
+        public void AddQuestion(IQuestion question)
+        {
+            _questions.Add(question);
+        }
+
+        public int RemoveQuestion(IQuestion question)
+        {
+            if (_questions.Contains(question))
+            {
+                IQuestion tmp = _questions.Find(q => q.QuestionID == question.QuestionID);
+                _questions.Remove(tmp);
+                return 0;
+            }
+            return -1;
+        }
+
         public int TestID
         {
             get

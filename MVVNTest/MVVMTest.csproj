@@ -56,20 +56,8 @@
     <Compile Include="MyWindow.xaml.cs">
       <DependentUpon>MyWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RelayCommand.cs" />
-    <Compile Include="YearToColorConverter.cs" />
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="CarListViewModel.cs" />
-    <Compile Include="CarViewModel.cs" />
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MyWindow.xaml">
@@ -105,10 +93,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAOMMock1\DAOMMock1.csproj">
-      <Project>{d8cd1d3f-8d71-4d2c-8329-3630acd2dc5d}</Project>
-      <Name>DAOMMock1</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{3a143a82-0927-4bae-877a-1b9a3067fe95}</Project>
       <Name>Interfaces</Name>
@@ -116,10 +100,6 @@
     <ProjectReference Include="..\UI\UI.csproj">
       <Project>{10425504-4f9a-46f6-9857-e2d2e4cdcc62}</Project>
       <Name>UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Validator\Validator.csproj">
-      <Project>{eec69a7d-f9ce-4c98-8b51-d7bb54b6f553}</Project>
-      <Name>Validator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
