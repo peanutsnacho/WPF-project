@@ -1,9 +1,9 @@
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\bin\Debug\Interfaces.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\bin\Debug\Interfaces.pdb
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\bin\Debug\Cars.DB_1.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\bin\Debug\CORE.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\bin\Debug\Test.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\bin\Debug\CORE.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\obj\Debug\Interfaces.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\obj\Debug\Interfaces.pdb
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\bin\Debug\CORE.dll
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\Interfaces\bin\Debug\CORE.pdb

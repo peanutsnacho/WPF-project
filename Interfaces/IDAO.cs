@@ -8,10 +8,7 @@ namespace Interfaces
 {
     public interface IDAO
     {
-        IEnumerable<IProducer> getAllProducers();
-        IEnumerable<ICar> getAllCars();
-
-        ICar CreateNewCar();
-        void AddCar(ICar car);
+        IEnumerable<ITest> getAllTests();
+        void AddNewTest(ITest test);
     }
 }

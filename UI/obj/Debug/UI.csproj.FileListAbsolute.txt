@@ -1,6 +1,5 @@
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\UI.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\UI.pdb
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\EditorMenuPage.g.cs
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\StartMenuPage.g.cs
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI_MarkupCompile.cache
