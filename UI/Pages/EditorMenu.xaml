@@ -19,14 +19,11 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
-                        <Label Content="{Binding TestID}"/>
-                        <Label Content="{Binding Name}"/>
-                    </StackPanel>
+                            <Label Content="{Binding TestID}"/>
+                            <Label Content="{Binding Name}"/>
+                        </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
-            <ListBoxItem>
-                <Label Content="Item 0"/>
-            </ListBoxItem>
         </ListBox>
         
     </DockPanel>

@@ -30,9 +30,11 @@
     </Style>
 
     <Style TargetType="{x:Type ListBox}">
-        <Setter Property="MinWidth" Value="200"/>
+        <Setter Property="MinWidth" Value="350"/>
         <Setter Property="Background" Value="#F0F4C3"/>
         <Setter Property="Margin" Value="50"/>
     </Style>
+
+
 
 </ResourceDictionary>
