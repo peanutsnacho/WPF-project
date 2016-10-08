@@ -102,6 +102,20 @@
   <ItemGroup>
     <Resource Include="Assets\Icon.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CORE\CORE.csproj">
+      <Project>{bef7bb66-a6ef-4083-a66c-75d889adc17a}</Project>
+      <Name>CORE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{3a143a82-0927-4bae-877a-1b9a3067fe95}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewModel\ViewModel.csproj">
+      <Project>{31cc16a2-228c-414d-a9d6-9450e6d0b93b}</Project>
+      <Name>ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

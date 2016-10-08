@@ -1,5 +1,13 @@
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\UI.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\UI.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\CORE.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\Interfaces.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\ViewModel.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\DAO.dll
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\CORE.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\Interfaces.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\ViewModel.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\DAO.pdb
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorMenu.g.cs
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\UserMenu.g.cs

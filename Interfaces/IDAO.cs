@@ -8,7 +8,7 @@ namespace Interfaces
 {
     public interface IDAO
     {
-        IEnumerable<ITest> getAllTests();
+        IEnumerable<ITest> GetAllTests();
         void AddNewTest(ITest test);
     }
 }

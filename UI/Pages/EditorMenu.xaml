@@ -4,23 +4,26 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:UI"
+      xmlns:viewmodel="clr-namespace:ViewModel;assembly=ViewModel"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="EditorMenuPage">
+    <Page.DataContext>
+        <viewmodel:TestListViewModel/>
+    </Page.DataContext>
 
     <DockPanel LastChildFill="False">
         <TextBlock Text="Editor Menu" DockPanel.Dock="Top" Style="{StaticResource PageTitle}"/>
 
-        <ListBox DockPanel.Dock="Left">
-            <!--
+        <ListBox DockPanel.Dock="Left" ItemsSource="{Binding Tests}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
-                        <Label/>
+                        <Label Content="{Binding TestID}"/>
+                        <Label Content="{Binding Name}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
-            -->
             <ListBoxItem>
                 <Label Content="Item 0"/>
             </ListBoxItem>

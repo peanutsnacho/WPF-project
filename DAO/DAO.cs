@@ -71,7 +71,7 @@ namespace DAO
             _tests.Add(test);
         }
 
-        public IEnumerable<ITest> getAllTests()
+        public IEnumerable<ITest> GetAllTests()
         {
             return _tests;
         }
