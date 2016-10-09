@@ -15,7 +15,7 @@
     <DockPanel LastChildFill="False">
         <TextBlock Text="Editor Menu" DockPanel.Dock="Top" Style="{StaticResource PageTitle}"/>
 
-        <ListBox DockPanel.Dock="Left" ItemsSource="{Binding Tests}">
+        <ListBox DockPanel.Dock="Left" ItemsSource="{Binding Tests}" SelectedItem="{Binding SelectedTest, Mode=TwoWay}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
@@ -25,6 +25,51 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        
+
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <Button Content="Add Test"/>
+            <Button Content="Save Test"/>
+            <Button Content="Delete Test"/>
+        </StackPanel>
+
+        <Grid DataContext="{Binding Path=SelectedTest}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition MinWidth="200"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="ID" Style="{StaticResource DetailedGrid}"/>
+            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Path=TestID}"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Content="Name" Style="{StaticResource DetailedGrid}"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=Name}"/>
+
+            <Label Grid.Row="2" Grid.Column="0" Content="Has Multiple Answers" Style="{StaticResource DetailedGrid}"/>
+            <CheckBox Grid.Row="2" Grid.Column="1" IsChecked="{Binding Path=HasMultipleAnswers}"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Content="Duration" Style="{StaticResource DetailedGrid}"/>
+            <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Path=Duration}"/>
+            <!--
+            <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" DataContext="{Binding Duration}">
+                <TextBox MinWidth="30" Text="{Binding Path=Hours}"/>
+                <Label Content="h"/>
+                <TextBox MinWidth="30" Text="{Binding Path=Minutes}"/>
+                <Label Content="min"/>
+                <TextBox MinWidth="30" Text="{Binding Path=Seconds, StringFormat={}{0:s}}"/>
+                <Label Content="s"/>
+            </StackPanel>
+            -->
+
+            <Label Grid.Row="4" Grid.Column="0" Content="Grading System" Style="{StaticResource DetailedGrid}"/>
+            <ComboBox Grid.Row="4" Grid.Column="1" ItemsSource="{Binding Source={StaticResource GradingSystemValues}}" SelectedItem="{Binding GradingSystem}"/>
+        </Grid>
+
     </DockPanel>
 </Page>

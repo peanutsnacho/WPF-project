@@ -82,6 +82,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Dictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\EditorMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Page</Generator>

@@ -15,6 +15,7 @@ namespace ViewModel
         private ObservableCollection<TestViewModel> _tests;
         private IDAO _dao;
         private ListCollectionView _view;
+        private TestViewModel _selectedTest;
 
         private void RaisePropertyChanged(string propertyName)
         {
@@ -29,7 +30,7 @@ namespace ViewModel
             _tests = new ObservableCollection<TestViewModel>();
             _dao = new DAO.DAO();
             _view = (ListCollectionView)CollectionViewSource.GetDefaultView(_tests);
-            GetAllTests();
+            GetAllTests();            
         }
 
         public void GetAllTests()
@@ -44,6 +45,12 @@ namespace ViewModel
         {
             get { return _tests; }
             set { _tests = value; RaisePropertyChanged("Tests"); }
+        }
+
+        public TestViewModel SelectedTest
+        {
+            get { return _selectedTest; }
+            set { _selectedTest = value; RaisePropertyChanged("SelectedTest"); }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
