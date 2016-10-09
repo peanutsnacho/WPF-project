@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionListViewModel.cs" />
+    <Compile Include="QuestionViewModel.cs" />
     <Compile Include="TestListViewModel.cs" />
     <Compile Include="TestViewModel.cs" />
   </ItemGroup>

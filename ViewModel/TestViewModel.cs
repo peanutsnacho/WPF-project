@@ -49,6 +49,12 @@ namespace ViewModel
             set { _test.GradingSystem = value; RaisePropertyChanged("GradingSystem"); }
         }
 
+        public IEnumerable<IQuestion> Questions
+        {
+            get { return _test.Questions; }
+            set { _test.Questions = value; }
+        }
+
         private void RaisePropertyChanged(string propertyName)
         {
             if (PropertyChanged != null)

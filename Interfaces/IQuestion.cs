@@ -8,7 +8,7 @@ namespace Interfaces
 {
     public interface IQuestion
     {
-        int QuestionID { get; }
+        int QuestionID { get; set; }
         string Text { get; set; }
         int Points { get; set; }
         IEnumerable<IAnswer> Answers { get; set; }
