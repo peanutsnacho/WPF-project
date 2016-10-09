@@ -5,6 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:UI"
       xmlns:viewmodel="clr-namespace:ViewModel;assembly=ViewModel"
+      xmlns:core="clr-namespace:CORE;assembly=CORE"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="EditorMenuPage">
@@ -15,22 +16,23 @@
     <DockPanel LastChildFill="False">
         <TextBlock Text="Editor Menu" DockPanel.Dock="Top" Style="{StaticResource PageTitle}"/>
 
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <Button Content="New Test" Command="{Binding AddNewTestToList}"/>
+            <Button Content="Save Test" Command="{Binding SaveTest}"/>
+            <Button Content="Delete Test" Command="{Binding DeleteTestFromList}"/>
+            <Button Content="Edit Questions"/>
+        </StackPanel>
+        
         <ListBox DockPanel.Dock="Left" ItemsSource="{Binding Tests}" SelectedItem="{Binding SelectedTest, Mode=TwoWay}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
-                            <Label Content="{Binding TestID}"/>
-                            <Label Content="{Binding Name}"/>
-                        </StackPanel>
+                        <Label Content="{Binding TestID}"/>
+                        <Label Content="{Binding Name}"/>
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-
-        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
-            <Button Content="Add Test"/>
-            <Button Content="Save Test"/>
-            <Button Content="Delete Test"/>
-        </StackPanel>
 
         <Grid DataContext="{Binding Path=SelectedTest}">
             <Grid.ColumnDefinitions>

@@ -10,5 +10,6 @@ namespace Interfaces
     {
         IEnumerable<ITest> GetAllTests();
         void AddNewTest(ITest test);
+        ITest CreateNewTest();
     }
 }

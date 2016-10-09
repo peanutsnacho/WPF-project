@@ -66,6 +66,11 @@ namespace DAO
 
         }
 
+        public ITest CreateNewTest()
+        {
+            return new Test();
+        }
+
         public void AddNewTest(ITest test)
         {
             _tests.Add(test);
