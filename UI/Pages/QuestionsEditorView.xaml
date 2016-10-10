@@ -14,7 +14,8 @@
     </Page.DataContext>
 
     <Grid>
-
+        <TextBlock Text="Success!"/>
+        <!--
         <DockPanel LastChildFill="False">
             <TextBlock Text="Editor Menu" DockPanel.Dock="Top" Style="{StaticResource PageTitle}"/>
 
@@ -58,6 +59,6 @@
             </Grid>
 
         </DockPanel>
-
+-->
     </Grid>
 </Page>

@@ -20,7 +20,7 @@
             <Button Content="New Test" Command="{Binding AddNewTestToList}"/>
             <Button Content="Save Test" Command="{Binding SaveTest}"/>
             <Button Content="Delete Test" Command="{Binding DeleteTestFromList}"/>
-            <Button Content="Edit Questions"/>
+            <Button Content="Edit Questions" x:Name="NavQuestions"/>
         </StackPanel>
         
         <ListBox DockPanel.Dock="Left" ItemsSource="{Binding Tests}" SelectedItem="{Binding SelectedTest, Mode=TwoWay}">

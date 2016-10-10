@@ -15,7 +15,6 @@ namespace ViewModel
         private ObservableCollection<QuestionViewModel> _questions;
         private ListCollectionView _view;
         private QuestionViewModel _selectedQuestion;
-        private TestViewModel _rootTest;
 
         public ObservableCollection<QuestionViewModel> Questions
         {
@@ -29,29 +28,15 @@ namespace ViewModel
             set { _selectedQuestion = value; }
         }
 
-        public QuestionListViewModel(TestViewModel test)
+        public QuestionListViewModel()
         {
-            _rootTest = test;
             Questions = new ObservableCollection<QuestionViewModel>();
             _view = (ListCollectionView)CollectionViewSource.GetDefaultView(_questions);
-            GetAllQuestions();
-        }
-
-        private void GetAllQuestions()
-        {
-            var questionsAsList = _rootTest.Questions.ToList();
-            foreach (IQuestion q in questionsAsList)
-            {
-                Questions.Add(new QuestionViewModel(q));
-            }
         }
 
         private void RaisePropertyChanged(string propertyName)
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -20,14 +20,10 @@ namespace ViewModel
         private RelayCommand _saveTests;
         private RelayCommand _addNewTestToList;
         private RelayCommand _deleteTestFromList;
-        private QuestionListViewModel _questionListViewModel;
 
         private void RaisePropertyChanged(string propertyName)
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         public TestListViewModel()
@@ -101,7 +97,6 @@ namespace ViewModel
             {
                 _selectedTest = value;
                 RaisePropertyChanged("SelectedTest");
-                QuestionListViewModel = new QuestionListViewModel(SelectedTest);
             }
         }
 
@@ -121,12 +116,6 @@ namespace ViewModel
         {
             get { return _deleteTestFromList; }
             set { _deleteTestFromList = value; }
-        }
-
-        public QuestionListViewModel QuestionListViewModel
-        {
-            get { return _questionListViewModel; }
-            set { _questionListViewModel = value; }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
