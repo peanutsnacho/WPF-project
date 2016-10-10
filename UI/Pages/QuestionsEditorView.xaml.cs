@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ViewModel;
 
 namespace UI.Pages
 {
@@ -23,6 +24,13 @@ namespace UI.Pages
         public QuestionsEditorView()
         {
             InitializeComponent();
+        }
+
+        void NavigationService_Navigated(object sender, NavigationEventArgs e)
+        {
+            var tvm = (TestViewModel)e.ExtraData;
+            QuestionListViewModel QuestionListVM = new QuestionListViewModel(tvm.Questions);
+            DataContext = QuestionListVM;
         }
     }
 }

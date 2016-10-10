@@ -15,7 +15,6 @@ namespace ViewModel
         private ObservableCollection<QuestionViewModel> _questions;
         private ListCollectionView _view;
         private QuestionViewModel _selectedQuestion;
-        private TestViewModel _rootTest;
 
         public ObservableCollection<QuestionViewModel> Questions
         {
@@ -29,17 +28,16 @@ namespace ViewModel
             set { _selectedQuestion = value; }
         }
 
-        public QuestionListViewModel(TestViewModel test)
-        {
-            _rootTest = test;
+        public QuestionListViewModel(IEnumerable<IQuestion> QuestionsCollection)
+        {           
             Questions = new ObservableCollection<QuestionViewModel>();
             _view = (ListCollectionView)CollectionViewSource.GetDefaultView(_questions);
-            GetAllQuestions();
+            SetAllQuestions(QuestionsCollection);
         }
 
-        private void GetAllQuestions()
+        private void SetAllQuestions( IEnumerable<IQuestion> QuestionsCollection)
         {
-            var questionsAsList = _rootTest.Questions.ToList();
+            var questionsAsList = QuestionsCollection.ToList();
             foreach (IQuestion q in questionsAsList)
             {
                 Questions.Add(new QuestionViewModel(q));
