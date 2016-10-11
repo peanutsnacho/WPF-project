@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MVVNTest"
         mc:Ignorable="d"
         Title="Test Admin Pro 2000"
-        Source="/UI;component/Pages/StartMenu.xaml"
+        Source="/UI;component/Pages/EditorView.xaml"
         Style="{StaticResource MainWindow}"
         Icon="/UI;component/Assets/Icon.bmp">
 </NavigationWindow>

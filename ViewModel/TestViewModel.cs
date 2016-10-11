@@ -12,10 +12,16 @@ namespace ViewModel
     public class TestViewModel : INotifyPropertyChanged
     {
         private ITest _test;
+        private QuestionListViewModel _questionLVM;
 
         public TestViewModel(ITest test)
         {
             _test = test;
+            _questionLVM = new QuestionListViewModel();
+            foreach (q in Questions)
+            {
+                _questionLVM.Questions.Add(new QuestionViewModel(q));
+            }
             Validate();
         }
 
@@ -53,6 +59,12 @@ namespace ViewModel
         {
             get { return _test.Questions; }
             set { _test.Questions = value; }
+        }
+
+        public QuestionListViewModel QuestionLVM
+        {
+            get;
+            set;
         }
 
         private void RaisePropertyChanged(string propertyName)

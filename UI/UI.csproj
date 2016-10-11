@@ -52,6 +52,9 @@
     <Compile Include="Pages\EditorMenu.xaml.cs">
       <DependentUpon>EditorMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\EditorView.xaml.cs">
+      <DependentUpon>EditorView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\QuestionsEditorView.xaml.cs">
       <DependentUpon>QuestionsEditorView.xaml</DependentUpon>
     </Compile>
@@ -92,6 +95,10 @@
     <Page Include="Pages\EditorMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Page</Generator>
+    </Page>
+    <Page Include="Pages\EditorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\QuestionsEditorView.xaml">
       <SubType>Designer</SubType>

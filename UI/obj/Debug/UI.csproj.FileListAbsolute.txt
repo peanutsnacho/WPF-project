@@ -23,3 +23,8 @@ C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.csproj.GenerateResource.Cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.pdb
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\QuestionsEditorView.g.cs
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Dictionary.baml
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\QuestionsEditorView.baml
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorView.g.cs
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorView.baml
