@@ -39,5 +39,12 @@ namespace UI.Pages
             }
             DataContext = qlvm;
         }
+
+        void NavigationService_Navigated(object sender, NavigationEventArgs e)
+        {
+            var tvm = (TestViewModel)e.ExtraData;
+            QuestionListViewModel QuestionListVM = new QuestionListViewModel(tvm.Questions);
+            DataContext = QuestionListVM;
+        }
     }
 }

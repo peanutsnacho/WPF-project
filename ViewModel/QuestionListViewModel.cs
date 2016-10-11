@@ -28,10 +28,27 @@ namespace ViewModel
             set { _selectedQuestion = value; }
         }
 
+<<<<<<< HEAD
         public QuestionListViewModel()
         {
             Questions = new ObservableCollection<QuestionViewModel>();
             _view = (ListCollectionView)CollectionViewSource.GetDefaultView(_questions);
+=======
+        public QuestionListViewModel(IEnumerable<IQuestion> QuestionsCollection)
+        {           
+            Questions = new ObservableCollection<QuestionViewModel>();
+            _view = (ListCollectionView)CollectionViewSource.GetDefaultView(_questions);
+            SetAllQuestions(QuestionsCollection);
+        }
+
+        private void SetAllQuestions( IEnumerable<IQuestion> QuestionsCollection)
+        {
+            var questionsAsList = QuestionsCollection.ToList();
+            foreach (IQuestion q in questionsAsList)
+            {
+                Questions.Add(new QuestionViewModel(q));
+            }
+>>>>>>> origin/UI-add-all-pages
         }
 
         private void RaisePropertyChanged(string propertyName)

@@ -22,11 +22,17 @@ namespace UI
     /// </summary>
     public partial class EditorMenuPage : Page
     {
+<<<<<<< HEAD
         private RelayCommand _goToQuestionsView;
+=======
+
+        private RelayCommand _navigateToDetails;
+>>>>>>> origin/UI-add-all-pages
 
         public EditorMenuPage()
         {
             InitializeComponent();
+<<<<<<< HEAD
             _goToQuestionsView = new RelayCommand(param => NavigateToQuestions());
             var button = (Button)this.FindName("NavQuestions");
             //button.Command = GoToQuestionsView;
@@ -49,6 +55,24 @@ namespace UI
             var tvm = ((TestListViewModel)DataContext).SelectedTest;
             NavigationService navService = NavigationService.GetNavigationService(this);
             navService.Navigate(new Pages.QuestionsEditorView(), tvm);
+=======
+            _navigateToDetails = new RelayCommand(param => this.GoToQestionsView());
+            var navForward = (Button)this.FindName("NavForward");
+            navForward.Command = this.NavigateToDetails;
         }
+
+        private void GoToQestionsView()
+        {
+            // var Page = (Page)this.FindName("EditorMenuPage");
+            //var DataContext = (TestListViewModel)Page.DataContext;
+            var curDataContext = (TestListViewModel)this.DataContext;
+            var curSelectedTest = curDataContext.SelectedTest;
+            NavigationService navService = NavigationService.GetNavigationService(this);
+            navService.Navigate(new Pages.QuestionsEditorView(), curSelectedTest);
+>>>>>>> origin/UI-add-all-pages
+        }
+
+        public RelayCommand NavigateToDetails
+        { get { return _navigateToDetails; } }
     }
 }
