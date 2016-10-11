@@ -13,7 +13,10 @@
     </Page.DataContext>
 
     <Grid>
-        <DataGrid ItemsSource="{Binding Tests}"/>
+        <StackPanel>
+            <DataGrid ItemsSource="{Binding Tests}" SelectedItem="{Binding SelectedTest, Mode=TwoWay}"/>
+            <DataGrid DataContext="{Binding SelectedTest.QuestionLVM}" ItemsSource="{Binding Questions}"/>
+        </StackPanel>
 
     </Grid>
 </Page>

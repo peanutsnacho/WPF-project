@@ -10,11 +10,16 @@ C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\Vi
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\bin\Debug\DAO.pdb
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorMenu.g.cs
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorView.g.cs
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\QuestionsEditorView.g.cs
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\UserMenu.g.cs
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\StartMenu.g.cs
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI_MarkupCompile.cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI_MarkupCompile.lref
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Dictionary.baml
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorMenu.baml
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorView.baml
+C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\QuestionsEditorView.baml
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\UserMenu.baml
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\StartMenu.baml
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Styles.baml
@@ -23,8 +28,3 @@ C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.csproj.GenerateResource.Cache
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.dll
 C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\UI.pdb
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\QuestionsEditorView.g.cs
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Dictionary.baml
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\QuestionsEditorView.baml
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorView.g.cs
-C:\Users\Gosia\Documents\Visual Studio 2015\Projects\WPF-project\UI\obj\Debug\Pages\EditorView.baml

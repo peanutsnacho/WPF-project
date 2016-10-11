@@ -17,10 +17,10 @@ namespace ViewModel
         public TestViewModel(ITest test)
         {
             _test = test;
-            _questionLVM = new QuestionListViewModel();
-            foreach (q in Questions)
+            QuestionLVM = new QuestionListViewModel();
+            foreach (var q in Questions)
             {
-                _questionLVM.Questions.Add(new QuestionViewModel(q));
+                QuestionLVM.Questions.Add(new QuestionViewModel(q));
             }
             Validate();
         }
@@ -63,8 +63,15 @@ namespace ViewModel
 
         public QuestionListViewModel QuestionLVM
         {
-            get;
-            set;
+            get
+            {
+                return _questionLVM;
+            }
+
+            set
+            {
+                _questionLVM = value;
+            }
         }
 
         private void RaisePropertyChanged(string propertyName)
