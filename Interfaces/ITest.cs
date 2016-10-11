@@ -9,7 +9,7 @@ namespace Interfaces
 {
     public interface ITest
     {
-        int TestID { get;}
+        int TestID { get; set; }
         string Name { get; set; }
         bool HasMultipleAnswers { get; set; }
         TimeSpan Duration { get; set; }

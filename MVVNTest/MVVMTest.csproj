@@ -93,6 +93,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CORE\CORE.csproj">
+      <Project>{bef7bb66-a6ef-4083-a66c-75d889adc17a}</Project>
+      <Name>CORE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{dc46115d-f9a8-4954-94dc-aa93d48a5609}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{3a143a82-0927-4bae-877a-1b9a3067fe95}</Project>
       <Name>Interfaces</Name>
@@ -100,6 +108,10 @@
     <ProjectReference Include="..\UI\UI.csproj">
       <Project>{10425504-4f9a-46f6-9857-e2d2e4cdcc62}</Project>
       <Name>UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewModel\ViewModel.csproj">
+      <Project>{31cc16a2-228c-414d-a9d6-9450e6d0b93b}</Project>
+      <Name>ViewModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

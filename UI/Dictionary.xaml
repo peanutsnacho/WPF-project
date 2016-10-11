@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:UI"
+                    xmlns:core="clr-namespace:CORE;assembly=CORE"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <ObjectDataProvider x:Key="GradingSystemValues" 
+                        MethodName="GetValues"
+                        ObjectType="{x:Type System:Enum}">
+        <ObjectDataProvider.MethodParameters>
+            <x:Type TypeName="core:Grading"/>
+        </ObjectDataProvider.MethodParameters>
+        
+    </ObjectDataProvider>
+    
+</ResourceDictionary>

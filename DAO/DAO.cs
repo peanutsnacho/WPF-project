@@ -66,12 +66,17 @@ namespace DAO
 
         }
 
+        public ITest CreateNewTest()
+        {
+            return new Test();
+        }
+
         public void AddNewTest(ITest test)
         {
             _tests.Add(test);
         }
 
-        public IEnumerable<ITest> getAllTests()
+        public IEnumerable<ITest> GetAllTests()
         {
             return _tests;
         }

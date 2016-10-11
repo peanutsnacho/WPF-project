@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI
+namespace UI.Pages
 {
     /// <summary>
-    /// Interaction logic for EditorMenuPage.xaml
+    /// Interaction logic for UserMenu.xaml
     /// </summary>
-    public partial class EditorMenuPage : Page
+    public partial class UserMenu : Page
     {
-        public EditorMenuPage()
+        public UserMenu()
         {
             InitializeComponent();
         }

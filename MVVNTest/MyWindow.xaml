@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVNTest"
         mc:Ignorable="d"
-        Title="MyWindow" Height="400" Width="600"
-        Source="/UI;component/StartMenuPage.xaml"
-        Background="#CDDC39">
+        Title="Test Admin Pro 2000"
+        Source="/UI;component/Pages/EditorView.xaml"
+        Style="{StaticResource MainWindow}"
+        Icon="/UI;component/Assets/Icon.bmp">
 </NavigationWindow>
